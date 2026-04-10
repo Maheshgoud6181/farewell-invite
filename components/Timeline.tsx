@@ -37,7 +37,7 @@ export default function Timeline() {
         {/* Timeline */}
         <div className="relative">
           {/* Vertical line */}
-          <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-red-600 via-red-500 to-transparent transform -translate-x-1/2" />
+          {/* <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-red-600 via-red-500 to-transparent transform -translate-x-1/2" /> */}
 
           {/* Timeline items */}
           <div className="space-y-12">
