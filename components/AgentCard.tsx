@@ -233,8 +233,8 @@ export default function AgentCard() {
             })}
           </div>
 
-          {/* Grid Pagination */}
-          <div className="flex items-center justify-center gap-2">
+          
+          {/* <div className="flex items-center justify-center gap-2">
             <button
               onClick={() => setGridPage(Math.max(0, gridPage - 1))}
               disabled={gridPage === 0}
@@ -242,11 +242,9 @@ export default function AgentCard() {
             >
               {'< Page'}
             </button>
-
             <div className="text-gray-400 font-mono text-sm">
               Page {gridPage + 1} of {Math.ceil(agents.length / agentsPerPage)}
             </div>
-
             <button
               onClick={() => setGridPage(Math.min(Math.ceil(agents.length / agentsPerPage) - 1, gridPage + 1))}
               disabled={gridPage >= Math.ceil(agents.length / agentsPerPage) - 1}
@@ -254,7 +252,7 @@ export default function AgentCard() {
             >
               {'Page >'}
             </button>
-          </div>
+          </div> */}
         </div>
 
         {/* Authentication indicator */}
