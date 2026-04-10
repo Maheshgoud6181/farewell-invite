@@ -209,7 +209,7 @@ export default function AgentCard() {
 
         {/* Agent Selection Grid with Pagination */}
         <div className="space-y-4">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
+          {/* <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
             {agents.slice(gridPage * agentsPerPage, (gridPage + 1) * agentsPerPage).map((agent, idx) => {
               const actualIndex = gridPage * agentsPerPage + idx;
               return (
@@ -231,7 +231,7 @@ export default function AgentCard() {
                 </button>
               );
             })}
-          </div>
+          </div> */}
 
           
           {/* <div className="flex items-center justify-center gap-2">
